@@ -80,7 +80,7 @@ deploy-to-minikube:
     
             
     - kubectl:
-        name: create deployent    
+        name: create pod    
         server: $KUBERNETES_MASTER
         token: $KUBERNETES_TOKEN
         insecure-skip-tls-verify: true
