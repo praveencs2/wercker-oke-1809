@@ -63,7 +63,7 @@ build:
   after-steps: 
     - slack-notifier:
           url: $SLACK_URL 
-          channel: notifications 
+          channel: general 
           custom_message: Deploying $WERCKER_GIT_BRANCH to $WERCKER_DEPLOYTARGET_NAME ($WERCKER_DEPLOY_URL) 
 
 
